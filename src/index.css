@@ -10,7 +10,7 @@
 }
 
 body {
-  background: url("https://i.postimg.cc/Hkbv8WCF/trianglify-lowres.webp");
+  background: url("/bg.webp");
   margin: 0;
   background-size: cover;
   min-height: 100vh;
