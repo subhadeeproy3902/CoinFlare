@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: url("https://i.postimg.cc/Hkbv8WCF/trianglify-lowres.webp");
+  margin: 0;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.1rem, 15vw, 50rem);
+  flex-wrap: wrap;
+}
+
+footer{
+  margin: 30px 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(255, 99, 255);
+  cursor: crosshair;
+  font-weight: 600;
+}
+
+footer a:hover{
+  text-shadow: 0 0 violet;
+}
