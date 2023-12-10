@@ -2,8 +2,9 @@ let Data = {
   data: {},
 };
 
-const Api = "fca_live_4Ka3OKfnfQ97tWuSLuWtTDckmAk0Dh43C0hiy55Y";
-const Url = `https://api.freecurrencyapi.com/v1/latest?apikey=${Api}`;
+const Api = import.meta.env.VITE_APP_API_KEY;
+const Api_Url = import.meta.env.VITE_APP_URL;
+const Url = `${Api_Url}?apikey=${Api}`;
 
 const fetchAPI = async() => {
   try {
